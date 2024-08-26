@@ -1,0 +1,16 @@
+{
+  "name": "node.js-qrcodegenrator",
+  "version": "1.0.0",
+  "description": "An asynchronous event-driven JavaScript Runtime ,Node.js is used to build scalable network applications",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^10.1.8",
+    "qr-image": "^3.2.0"
+  }
+}
