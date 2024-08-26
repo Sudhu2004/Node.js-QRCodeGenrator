@@ -46,7 +46,7 @@ We can use code libraries developed by other developers which might be useful fo
 ```javascript
 const name = 'MyName';
 console.log(`My name is ${name}.`);
-
+```
 ### ECMAScript Modules
 
 Standardized way of using JavaScript.
@@ -60,7 +60,7 @@ And then you can run the below:
 
 ```javascript
 import generateName from 'sillyname';
-
+```
 ## QR Code Generator
 
 ### Pre-setup
@@ -69,15 +69,17 @@ Initialize your project with the following command:
 
 ```bash
 npm init -y
-
+```
 ### Required NPM Packages
 
 To generate a QR code, you'll need the following NPM packages:
 
-- **`inquirer`**: To get inputs from the user.
-- **`qr-image`**: To generate images and save the QR code as a PNG.
+- [inquirer](https://www.npmjs.com/package/inquirer): To get inputs from the user.
+- [qr-image](https://www.npmjs.com/package/qr-image): To generate images and save the QR code as a PNG.
+
 
 Install these packages using:
 
 ```bash
 npm install inquirer qr-image
+```
